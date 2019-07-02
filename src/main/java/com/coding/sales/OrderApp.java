@@ -219,6 +219,8 @@ public class OrderApp {
                 new BigDecimal("1"), false, null));
         goodsList.add(new GoodsInfo("2019北京世园会纪念银章大全40g", "001002", "盒", new BigDecimal("1380.00"),
                 new BigDecimal("0.9"), false, null));
+        goodsList.add(new GoodsInfo("财进宝", "003002", "条", new BigDecimal("1580.00"),
+                new BigDecimal("0.95"), false, null));
         //第3件半价，满3送1
         List<HashMap> disCountForEvery3002 = new ArrayList<HashMap>();
         HashMap<String, BigDecimal> hashMap = new HashMap<String, BigDecimal>();
